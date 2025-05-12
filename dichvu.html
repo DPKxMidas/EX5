@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngọc Minh Web Design - Dịch vụ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #dcdcdc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .section h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .service-list ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .service-item {
+            margin-bottom: 15px;
+        }
+        .service-item h3 {
+            color: #555;
+            margin-top: 0;
+        }
+        .price {
+            font-style: italic;
+            color: #777;
+        }
+        .contact-form {
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        .contact-form h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: calc(100% - 12px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .contact-form button {
+            padding: 10px 15px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #4cae4c;
+        }
+        .footer {
+            background-color: #dc3545;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ngọc Minh Web Design</h1>
+        </div>
+        <div class="main-content">
+            <div class="section">
+                <h2>Các dịch vụ</h2>
+                <div class="service-list">
+                    <ul>
+                        <li class="service-item">
+						<h3>Thiết kế Website</h3>
+                            <p>Tạo website chuyên nghiệp, giá cả phải chăng cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.</p>
+                            <p class="price">Giá: $1.000 - $3.000</p>
+                        </li>
+                        <li class="service-item">
+                            <h3>Bảo trì Website</h3>
+                            <p>Bảo trì website chuyên nghiệp, giá cả phải chăng cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.</p>
+                            <p class="price">Giá: $250 mỗi tháng</p>
+                        </li>
+                        <li class="service-item">
+                            <h3>Web Hosting</h3>
+                            <p>Cung cấp hosting chuyên nghiệp, giá cả phải chăng cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.</p>
+                            <p class="price">Giá: $25 mỗi tháng</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Liên hệ</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="ten">Tên:</label>
+                        <input type="text" id="ten" name="ten" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="noidung">Nội dung:</label>
+                        <textarea id="noidung" name="noidung" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Gửi</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            Ngoc Minh Web Design, Copyright © 2022
+        </div>
+    </div>
+</body>
+</html>
